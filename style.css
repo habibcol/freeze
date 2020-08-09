@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top-section{
+    width: 100%;
+    height: 100px;
+    padding: 0px 50px;
+    background: #eeebec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.menu ul li{
+    color: gray;
+    padding: 0px 30px;
+    font-weight: bold;
+}
+.image-mid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background: #f6f6f6;
+}
+.image-mid img{
+    height: 400px;;
+}
+.third{
+    width: 100%;
+    height: 200px;
+    background: #ebe7e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+    margin-left: 50px ;
+}
+.img-yogurt img{
+    height: 200px;
+}
+.product{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #818181;
+}
+.normal{
+    width: 50%;
+    padding: 20px 0px;
+    color: #818181;
+}
+.color-text{
+    color: #da2761;
+    font-size: 40px;
+    font-weight: bold;
+}
+.normal a{
+    text-decoration: none;
+    color: #818181;
+}
+.fourth{
+    width: 100%;
+    height: 150px;
+    background: #c4c100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourth img{
+    margin: 0px 50px 0px;
+}
+.foot{
+    width: 100%;
+    height: 250px;
+    background: #c33161;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+text-decoration: none;
+color: white;
+font-size: 30px;
+}
+.foot{
+    color: white;
+}
+
+
