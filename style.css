@@ -21,6 +21,7 @@ body{
     list-style: none;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .menu ul li{
     color: gray;
@@ -76,6 +77,7 @@ body{
     height: 150px;
     background: #c4c100;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -87,12 +89,14 @@ body{
     height: 250px;
     background: #c33161;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .links a{
 text-decoration: none;
+margin: 10px;
 color: white;
 font-size: 30px;
 }
